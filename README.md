@@ -1,4 +1,4 @@
-| **Domain**         | **Status**    | **DON** | **RFN**    |**DOM**|
+| **Domain**         | **Status**    | **DOD** | **RFN**    |**DOM**|
 |:------------------:|:-------------:|:-------:|:----------:|:-----:|
 | portswigger.net    | spoofable     | 12/2/22 |Refusal     | N/A   |
 | timcast.com        | spoofable     | 11/5/22 |Unresponsive| N/A   |
@@ -13,7 +13,7 @@
 
 # Key
 
-DON = Date of Negligence 
+DOD = Date of Disregard 
 
 RFN = Reason for Negligence
 
@@ -23,7 +23,7 @@ DOM = Date of Mitigation
 # Why?
 I'm always looking at the DNS of any domain I come across for fun and I come across a lots of misconfigurations in regards to email security from the largest organizations to the smallest. Being that phishing is the #1 way to gain initial access, and that it takes virtually 0 time and resources to get DNS right, I made this "wall of shame and negligence". 
 	
-The ultimate goal of this project being to spread awareness about which domains are contributing to the global phishing problem and maybe if this list gets popular enough it will put pressure on those who refuse to change.
+The ultimate goal of this project spread awareness about which domains are contributing to the global phishing problem and maybe if this list gets popular enough it will put pressure on those who refuse to change.
 
 # Methodology and details
 I basically take a look at the DNS of any domain I come across on the internet. If I see they have an email vulnerability I attempt to notify the organization and offer help with a screenshot of a POC. After about a week or two, if the problem isn't fixed or being addressed in some way they get added to the list.
