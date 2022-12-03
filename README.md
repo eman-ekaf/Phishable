@@ -46,7 +46,7 @@ If someone on the list attempts to cover up their mistakes and claim they were n
 **A:** It wouldn't make any sense mostly, as this is the basics of owning a domain. Being vulnerable means you didn't do the security basics which means you're negligent or ignorant. Being that the domains on the list have been notified or have no effective way of being notified, there is nothing left to be but negligent. If you aren't vulnerable that means you are just doing what you are supposed to, nothing to be praised.  
 
 **Q:** How do you attempt to contact domain owners/ organizations?  
-**A:** It's different depending on the size of the organization and how much information is available to me. I'm not getting paid to make sure these company's domains are setup correctly. I'm not going to go out of my way and take a month to attempt to contact someone all sorts of different ways.  
+**A:** It's different depending on the size of the organization and how much information is available to me. I'm not getting paid to make sure these organization's domains are setup correctly. I'm not going to go out of my way and take a month to attempt to contact someone all sorts of different ways. 
 
 I may attempt to reach out more than once to particularly large or popular organizations due to the potential severity and scope their misconfigurations have on customers or fans who don't know any better, otherwise I'm reaching out once.  
 (Also it should be known that companies with DNS misconfigurations could be experiencing deliverability issues with email, which mean my communication might never make it do to finicky workarounds instead of doing the basics)
