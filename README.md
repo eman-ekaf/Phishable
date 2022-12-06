@@ -2,7 +2,7 @@
 | --- | --- | --- | --- | --- | --- |
 | portswigger.net | <span style="color: red;">spoofable</span> | 12/2/22 | Refusal | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known existing subdomains</summary> forum.portswigger.net<br>enterprise-demo.portswigger.net</details> |
 | timcast.com | <span style="color: red;">spoofable</span> | 11/5/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
-| projectveritas.com | <span style="color: red;">spoofable</span> | 10/17/22 | Inaction | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
+| projectveritas.com | <span style="color: red;">spoofable</span> | 10/17/22 | Inaction | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known affiliated domains</summary>projectveritasshop.com</details> |
 | inversecos.com | <span style="color: red;">spoofable</span> | 11/19/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
 | dailywire.com | <span style="color: red;">spoofable</span> | 10/17/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
 | hashcat.net | <span style="color: red;">spoofable</span> | 10/17/22 | Refusal | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
