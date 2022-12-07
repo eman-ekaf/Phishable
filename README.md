@@ -52,7 +52,7 @@ There is no order to the list. I will not add domains to this list that I have e
 I may attempt to reach out more than once to particularly large or popular organizations due to the potential severity and scope their misconfigurations have on customers or fans who don't know any better, otherwise I'm reaching out once.
 (Also it should be known that organizations with DNS misconfigurations could be experiencing deliverability issues with email, which means my communications might never make it to the inbox do to finicky workarounds instead of doing the basics)
 
-If it's a personal domain of some security researcher that's active on social media, then I may just message them directly if available. If not, I'll look for an email or some other way to contact on the domain. If the contact information is unavailable or takes it me more than a reasonable amount of research to find the contact information, the domain is added to the list.
+If it's a personal domain of some security researcher that's active on social media, then I may just message them directly if available. If not, I'll look for an email or some other way to contact on the domain. If the contact information is unavailable or it takes me more than a reasonable amount of research to find the contact information, the domain is added to the list.
 
 If the organization is big or popular I look for contact information on the website. If there is none I will attempt to reach applicable staff on social media. If there is nobody to contact or whoever is contacted doesn't respond, the domain is added to the list.
 
