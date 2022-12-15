@@ -1,4 +1,4 @@
-| **Domain** | **Status** | **DOD** | **RFN** | **DOM** | **Affiliated domains/subdomains** |
+| **Domain** | **Status** | **<a href="https://github.com/eman-ekaf/Phishable#key">DOD</a>** | **<a href="https://github.com/eman-ekaf/Phishable#key">RFN</a>** | **<a href="https://github.com/eman-ekaf/Phishable#key">DOM</a>** | **Affiliated domains/subdomains** |
 | --- | --- | --- | --- | --- | --- |
 | portswigger.net | <span style="color: red;">spoofable</span> | 12/2/22 | Refusal | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known existing subdomains</summary> forum.portswigger.net<br>enterprise-demo.portswigger.net</details> |
 | timcast.com | <span style="color: red;">spoofable</span> | 11/5/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
