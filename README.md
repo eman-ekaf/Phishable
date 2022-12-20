@@ -41,7 +41,7 @@ There is no order to the list. I will not add domains to this list that I have e
 
 # FAQ
 
-<details><summary>How do I get removed from the list?</summary> You cannot, this is a permanent record.</details> 
+<details><summary>How do I get removed from the list?</summary> You cannot, this is a permanent record. Many people intrinsically trust large organizations to do the basics when it comes to security, by keeping a record of negligence creates a great resource for the naive or unknowing to properly gauge how much trust they should have in an organization to do the right thing in general.</details> 
 
 <details><summary>Isn't 2 weeks a little unfair for larger orgs with complex infrastructures?</summary> No, the fix for this particular email authentication vulnerability takes approximately 0 money and about 5 minutes on even the most complex infrastructures.</details> 
 
