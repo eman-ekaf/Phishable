@@ -1,7 +1,7 @@
 | **Domain** | **Status** | **<a href="https://github.com/eman-ekaf/Phishable#key">DOD</a>** | **<a href="https://github.com/eman-ekaf/Phishable#key">RFN</a>** | **<a href="https://github.com/eman-ekaf/Phishable#key">DOM</a>** | **Affiliated domains/subdomains** |
 | --- | --- | --- | --- | --- | --- |
 | portswigger.net | <span style="color: red;">spoofable</span> | 12/2/22 | Refusal | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known existing subdomains</summary> forum.portswigger.net<br>enterprise-demo.portswigger.net</details> |
-| timcast.com | <span style="color: red;">spoofable</span> | 11/5/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
+| timcast.com | <span style="color: red;">spoofable</span> | 11/5/22 | Inaction | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
 | projectveritas.com | <span style="color: red;">spoofable</span> | 10/17/22 | Inaction | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known affiliated domains</summary> projectveritasshop.com</details> |
 | inversecos.com | <span style="color: red;">spoofable</span> | 11/19/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> |
 | dailywire.com | <span style="color: red;">spoofable</span> | 10/17/22 | Unresponsive | N/A | <span style="color: red;">(All existing and non-existent subdomains)</span> <details><summary>Known existing subdomains</summary> store.dailywire.com<br>get.dailywire.com<br>advertise.dailywire.com<br>privacy.dailywire.com</details> |
@@ -19,19 +19,25 @@
 
 # Key
 
-DOD = Date of Disregard
+**DOD** = Date of Disregard
 
-RFN = Reason for Negligence
+**RFN** = Reason for Negligence
 
-DOM = Date of Mitigation
+**DOM** = Date of Mitigation
 
-All affiliated domains and subdomains are under the umbrella of the parent organization and all have the same misconfiguration.
+**Refusal** = Contact was made, the issue is understood, but refused to mitigate the vulnerability or vulnerabilities
+
+**Unresponsive** = Attempts were made to notify the organization with no response or action taken on the domain to mitigate the issue
+
+**Inaction** = Contact was made, the issue is understood, mitigation was promised, but no action to mitigate the vulnerability or vulnerabilities was made
+
+All affiliated domains and subdomains are believed to be under the umbrella of the parent organization and all have the same misconfiguration(s).
 
 # Why?
 
-I'm always looking at the DNS of any domain I come across for fun and I come across a lots of misconfigurations in regards to email security from the largest organizations to the smallest. Being that phishing is the #1 way to gain initial access, and that it takes virtually 0 time and resources to get DNS right, I made this "wall of shame and negligence".
+I'm always looking at the DNS of any domain I come across for fun and I come across a lots of misconfigurations in regards to email security from the largest organizations to the smallest. Being that phishing is the #1 way to gain initial entry, and that it takes virtually 0 time and resources to get DNS right, I made this project listing domains with misconfigured DNS.
 
-The ultimate goal of this project is to spread awareness about which domains are contributing to the global phishing problem and maybe if this list gets popular enough it will put pressure on those who refuse to change.
+The ultimate goal of this project is to spread awareness about which domains are contributing to the global phishing problem and maybe if this project gets popular enough it will put pressure on those who refuse to change while being a good resource for organizations to better gauge risk when conducting business.
 
 # Methodology and details
 
@@ -41,22 +47,22 @@ There is no order to the list. I will not add domains to this list that I have e
 
 # FAQ
 
-<details><summary>How do I get removed from the list?</summary> You cannot, this is a permanent record. Many people intrinsically trust large organizations to do the basics when it comes to security, by keeping a record of negligence creates a great resource for the naive or unknowing to properly gauge how much trust they should have in an organization to do the right thing in general.</details> 
+<details><summary>How do I get removed from the list?</summary> You cannot, this is a permanent record. Many people intrinsically trust large organizations to do the basics when it comes to security, by keeping a record of domains ignoring security basics creates a great resource for the naive or unknowing to properly gauge how much trust they should have in an organization to do the right thing in general.</details> 
 
 <details><summary>Isn't 2 weeks a little unfair for larger orgs with complex infrastructures?</summary> No, the fix for this particular email authentication vulnerability takes approximately 0 money and about 5 minutes on even the most complex infrastructures.</details> 
 
-<details><summary>Why should I believe this list?</summary> Well, you can see if they are spoofable or not yourself by doing a DNS lookup or using the free tool I helped build: <a href="https://github.com/MattKeeley/Spoofy">Spoofy.</a> If someone on the list attempts to cover up their mistakes and claim they were never vulnerable, you can see their past DNS posture for yourself with this free tool: <a href="https://dnshistory.org">DNS History.</a></details> 
+<details><summary>Why should I believe this list?</summary> Well, you can see if they are spoofable or not yourself by doing a DNS lookup or using the free tool I co-created: <a href="https://github.com/MattKeeley/Spoofy">Spoofy.</a> If someone on the list attempts to cover up their mistakes and claim they were never vulnerable, you can see their past DNS posture for yourself with this free tool: <a href="https://dnshistory.org">DNS History.</a></details> 
 
-<details><summary>Why don't you have a "Responsible Domains" list?</summary> It wouldn't make any sense mostly, as this is the basics of owning a domain. Being vulnerable means you didn't do the security basics which means you're negligent or ignorant. Being that the domains on the list have been notified or have no effective way of being notified, there is nothing left to be but negligent. If you aren't vulnerable that means you are just doing what you are supposed to, nothing to be praised.</details> 
+<details><summary>Why don't you have a "Responsible Domains" list?</summary> It wouldn't make any sense mostly, as this is the basics of owning a domain. Being vulnerable means you didn't do the security basics which means you're negligent or ignorant. Being that the domains on the list have been notified or have no effective way of being notified, there is nothing left to be but negligent in my opinion. If you aren't vulnerable that means you are just doing what you are supposed to, nothing to be praised.</details> 
 
 <details><summary>How do you know a domain is actually spoofable?</summary> I test to make sure spoofing actually works using my own spoofer <a href="https://emailspooftest.com/toolbox.aspx">here (not free, sorry).</a> Although the main validation tool is free <a href="https://emailspooftest.com">here.</a> </details>
 
- <details><summary>How do you discover affiliated domains and subdomains?</summary> I perform reverse DNS lookups or just traverse the domain to find affiliated domains. For subdomains, I mostly just traverse the domain. I don't use any sort of domain/ subdomain enumerator or scraper tools because the domains/ subdomains that are linked to on the domains being investigated are the domains/ subdomains victims will use to verify if mail is fraudulent or not.</details> 
+ <details><summary>How do you discover affiliated domains and subdomains?</summary> I perform reverse DNS lookups or just traverse the domain to find affiliated domains. For subdomains, I mostly just traverse the domain. I don't use any sort of domain/ subdomain enumerator or scraper tools because the domains/ subdomains that are linked to on the webpages of domains being investigated are the domains/ subdomains victim organizations will use to verify if mail is fraudulent or not.</details> 
 
 <details><summary>How do you attempt to contact domain owners/ organizations?</summary> It's different depending on the size of the organization and how much information is available to me. I'm not getting paid to make sure these organization's domains are setup correctly. I'm not going to go out of my way and take a month to attempt to contact someone all sorts of different ways.
 
 I may attempt to reach out more than once to particularly large or popular organizations due to the potential severity and scope their misconfigurations have on customers or fans who don't know any better, otherwise I'm reaching out once.
-(Also it should be known that organizations with DNS misconfigurations could be experiencing deliverability issues with email, which means my communications might never make it to the inbox do to finicky workarounds instead of doing the basics)
+(Also it should be known that organizations with DNS misconfigurations could be experiencing deliverability issues with email, which means my communications might never make it to the inbox due to finicky workarounds instead of doing the basics.)
 
 If it's a personal domain of some security researcher that's active on social media, then I may just message them directly if available. If not, I'll look for an email or some other way to contact on the domain. If the contact information is unavailable or it takes me more than a reasonable amount of research to find the contact information, the domain is added to the list.
 
@@ -72,7 +78,16 @@ If you are on the list and have fixed the issue yourself please reach out via em
 
 If you are on the list and need help fixing the issue please reach out via email [here.](mailto:emailsecuritytest@protonmail.com?subject=I%20need%20help%20fixing%20my%20domain!)
 
+# Other projects
+
+**Email Spoof Test:** https://emailspooftest.com is an email security pentesting suite that enables users to test and tune their connection level SMTP security posture anonymously and securely. The suite includes a guided test where you can generate a grade for the email security of your domains, the ability to test using custom email relays, the ability to validate spoofing with a spoofer, send pre-packaged real phishing templates that have been disarmed, and keep track of your progress with our Grade History tracker.
+
+**Spoofy:** https://github.com/MattKeeley/Spoofy (Spoofy) is an open source and free tool for scanning large numbers of domains for DNS misconfigurations regarding email security. Spoofy is different from other mass DNS scanning tools because it prioritizes accuracy over speed, and custom manually tested spoof logic.
+
+**DLP Toolbox:** https://dlptoolbox.com (formally Data Leak Test) is an auditing suite for testing and validating Data Loss Prevention (DLP) product policy functionality.  The suite includes a POST leakage test, a GET leakage test, file upload leakage test, and an email leakage test you can use to test and validate the ability for a DLP product to enforce their policies and prevent leakage.
+
 # Ideas
 
 - [ ] Create social media for the Phishable project so people can be updated when the list is updated.
-- [ ] Add more ideas to the ideas list
+- [x] Add more ideas to the ideas list
+- [x] Add links to my other projects
