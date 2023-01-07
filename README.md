@@ -82,7 +82,7 @@ If you are on the list and need help fixing the issue please reach out via email
 
 **Email Spoof Test:** https://emailspooftest.com is an email security pentesting suite that enables users to test and tune their connection level SMTP security posture anonymously and securely. The suite includes a guided test where you can generate a grade for the email security of your domains, the ability to test using custom email relays, the ability to validate spoofing with a spoofer, send pre-packaged real phishing templates that have been disarmed, and keep track of your progress with our Grade History tracker.
 
-**Spoofy:** https://github.com/MattKeeley/Spoofy (Spoofy) is an open source and free tool for scanning large numbers of domains for DNS misconfigurations regarding email security. Spoofy is different from other mass DNS scanning tools because it prioritizes accuracy over speed, and custom manually tested spoof logic.
+**Spoofy:** https://github.com/MattKeeley/Spoofy (Spoofy) is an open source and free tool for scanning large numbers of domains for DNS misconfigurations regarding email security. Spoofy is different from other mass DNS scanning tools because it prioritizes accuracy over speed, and custom manually tested spoof logic. (**As seen in Zero-Point Security's CTRO course**)
 
 **DLP Toolbox:** https://dlptoolbox.com (formally Data Leak Test) is an auditing suite for testing and validating Data Loss Prevention (DLP) product policy functionality.  The suite includes a POST leakage test, a GET leakage test, file upload leakage test, and an email leakage test you can use to test and validate the ability for a DLP product to enforce their policies and prevent leakage.
 
