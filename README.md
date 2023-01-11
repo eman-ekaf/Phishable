@@ -21,7 +21,7 @@
 
 **DOD** = Date of Disregard
 
-**RFN** = Reason for Negligence
+**RFN** = Reason for Non-compliance (With industry standards)
 
 **DOM** = Date of Mitigation
 
