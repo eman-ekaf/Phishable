@@ -58,7 +58,7 @@ The ultimate goal of this project is to spread awareness about which domains are
 
 I basically take a look at the DNS of any domain I come across on the internet. If I see they have an email vulnerability I attempt to notify the organization and offer help with a screenshot of a POC. After around 2 weeks, if the problem isn't fixed or being addressed in some way, they get added to the list.
 
-There is no order to the list. I will not add domains to this list that I have evaluated previous to 2022, the only domains that will be on this list are the ones notified during and after the year 2022. Those on this list are all contributing to the global phishing problem via a critical and easy to fix vulnerability (This type of vulnerability is a "Critical 9.5" according to HackerOne's CVE criticality calculator). I will periodically update the list during my free time, it will slowly but surely grow.
+There is no order to the list. I will not add domains to this list that I have evaluated previous to 2022, the only domains that will be on this list are the ones notified during and after the year 2022. Those on this list are all contributing to the global phishing problem via a critical and easy to fix vulnerability (This type of vulnerability is "Critical" according to the OWASP Risk Assesment Framework, and is a 5.8 medium - 8.3 high on the CVSS calculator depending on who fills it out :stuck_out_tongue: ). I will periodically update the list during my free time, it will slowly but surely grow.
 
 # FAQ
 
