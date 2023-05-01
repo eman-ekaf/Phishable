@@ -72,7 +72,7 @@ There is no order to the list. I will not add domains to this list that I have e
 
 <details><summary>How do you know a domain is actually spoofable?</summary> I test to make sure spoofing actually works using my own spoofer <a href="https://emailspooftest.com/toolbox.aspx">here (not free, sorry).</a> Although the main validation tool is free <a href="https://emailspooftest.com">here.</a> </details>
 
- <details><summary>How do you discover affiliated domains and subdomains?</summary> I perform reverse DNS lookups, traverse the domain to find affiliated domains. For subdomains, I mostly just traverse the domain and use a couple of good subdomain finders to locate real subdomains. I used to not use automated scanners, but the subdomain finders streamline the process overall. </details> 
+ <details><summary>How do you discover affiliated domains and subdomains?</summary> I perform reverse DNS lookups and traverse the domain to find affiliated domains. For subdomains, I mostly just traverse the domain and use a couple of good subdomain finders to locate real subdomains. I used to not use automated scanners, but the subdomain finders streamline the process overall. </details> 
 
 <details><summary>How do you attempt to contact domain owners/ organizations?</summary> It's different depending on the size of the organization and how much information is available to me. I'm not getting paid to make sure these organization's domains are setup correctly. I'm not going to go out of my way and take a month to attempt to contact someone all sorts of different ways.
 
